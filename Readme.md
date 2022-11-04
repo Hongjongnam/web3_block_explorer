@@ -26,7 +26,7 @@ personal.newAccount('3009')
 
 # geth 접속
 
-geth --datadir node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "\*" --http.api "admin,miner,txpool,web3,personal,eth" --syncmode full --networkid 3009 --allow-insecure-unlock --unlock "0" --password "./node/password"
+geth --datadir node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "*" --http.api "admin,miner,txpool,web3,personal,eth" --syncmode full --networkid 3009 --allow-insecure-unlock --unlock "0" --password "./node/password"
 
 # geth attach
 

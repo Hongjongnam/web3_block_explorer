@@ -639,3 +639,21 @@
 16:00:19.056766 version@stat F·[3 1] S·728KiB[57KiB 670KiB] Sc·[0.75 0.01]
 16:00:19.084742 db@janitor F·6 G·0
 16:00:19.084802 db@open done T·44.462467ms
+=============== Nov 5, 2022 (KST) ===============
+01:42:05.514219 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:42:05.516582 version@stat F·[3 1] S·728KiB[57KiB 670KiB] Sc·[0.75 0.01]
+01:42:05.516660 db@open opening
+01:42:05.516755 journal@recovery F·1
+01:42:05.525657 journal@recovery recovering @152
+01:42:05.534577 memdb@flush created L0@154 N·14 S·651B "Sna..led,d17481":"unc..own,v17484"
+01:42:05.541640 version@stat F·[4 1] S·728KiB[58KiB 670KiB] Sc·[1.00 0.01]
+01:42:05.581417 db@janitor F·7 G·0
+01:42:05.581512 db@open done T·64.824364ms
+01:42:05.581586 table@compaction L0·4 -> L1·1 S·728KiB Q·17493
+01:42:05.675118 table@build created L1@157 N·10562 S·721KiB "\x00\xa9w..h\x14\x9b,v13384":"\xff^\xde..\xa7\"D,v15254"
+01:42:05.675257 version@stat F·[0 1] S·721KiB[0B 721KiB] Sc·[0.00 0.01]
+01:42:05.681837 table@compaction committed F-4 S-7KiB Ke·0 D·487 T·100.142752ms
+01:42:05.682047 table@remove removed @151
+01:42:05.682528 table@remove removed @148
+01:42:05.682796 table@remove removed @145
+01:42:05.683512 table@remove removed @144

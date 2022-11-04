@@ -2147,3 +2147,25 @@
 16:00:19.773199 table@remove removed @642
 16:00:19.773556 table@remove removed @643
 16:00:19.773888 table@remove removed @644
+=============== Nov 5, 2022 (KST) ===============
+01:42:05.905243 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:42:05.911916 version@stat F·[0 4] S·6MiB[0B 6MiB] Sc·[0.00 0.06]
+01:42:05.912002 db@open opening
+01:42:05.912093 journal@recovery F·1
+01:42:06.035813 journal@recovery recovering @646
+01:42:06.165163 memdb@flush created L0@652 N·21472 S·457KiB "loc..seq,v3621142":"n:\xff..ong,v3631744"
+01:42:06.182319 version@stat F·[1 4] S·6MiB[457KiB 6MiB] Sc·[0.25 0.06]
+01:42:06.210358 db@janitor F·8 G·1
+01:42:06.210402 db@janitor removing table-645
+01:42:06.210588 db@open done T·298.576774ms
+01:42:06.309737 table@compaction L0·1 -> L1·4 S·6MiB Q·3642589
+01:42:06.418518 table@build created L1@655 N·50228 S·2MiB "loc..seq,v3621142":"n:M..ing,v3052197"
+01:42:06.517949 table@build created L1@656 N·50211 S·2MiB "n:M..ong,v3052196":"n:\x9d..ail,v3056728"
+01:42:06.612522 table@build created L1@657 N·49733 S·2MiB "n:\x9d..ail,v3056727":"n:\xe9..ail,v526965"
+01:42:06.647153 table@build created L1@658 N·13865 S·575KiB "n:\xe9..ail,v526961":"version,v1"
+01:42:06.647260 version@stat F·[0 4] S·6MiB[0B 6MiB] Sc·[0.00 0.07]
+01:42:06.653786 table@compaction committed F-1 S-301KiB Ke·0 D·16846 T·343.944949ms
+01:42:06.654253 table@remove removed @648
+01:42:06.654475 table@remove removed @649
+01:42:06.654679 table@remove removed @650
+01:42:06.654766 table@remove removed @651
