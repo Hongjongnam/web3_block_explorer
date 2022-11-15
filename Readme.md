@@ -1,4 +1,3 @@
-
 # Geth
 
 작업할 디렉토리하나 생성
@@ -25,7 +24,8 @@ personal.newAccount('3009')
 
 # geth 접속
 
-geth --datadir node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "*" --http.api "admin,miner,txpool,web3,personal,eth" --syncmode full --networkid 3009 --allow-insecure-unlock --unlock "0" --password "./node/password"
+source ~/.bash_profile
+geth --datadir node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "\*" --http.api "admin,miner,txpool,web3,personal,eth" --syncmode full --networkid 3009 --allow-insecure-unlock --unlock "0" --password "./node/password"
 
 # geth attach
 
@@ -33,7 +33,7 @@ geth attach http://127.0.0.1:9000
 
 # 계좌 밸런스(잔액) 확인
 
-eth.getBalance("0xf54c44ef012d5e32a798e6846dfb97a9e885d9a0")
+eth.getBalance("0xea34cba17a16cb922916efb9360a9667c29ec5a0")
 
 UTC-[]-account-laskdalksg 암호화 양방향(복호화)
 개인키가 나옵니다. salt -> password -> 개인키가 짜잔

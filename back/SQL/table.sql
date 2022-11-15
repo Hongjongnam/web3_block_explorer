@@ -4,7 +4,7 @@ USE pj_block;
 
 CREATE TABLE `block`(
     `difficulty` INT NOT NULL,
-    `extraData` CHAR(52) NOT NULL,
+    `extraData` CHAR(100) NOT NULL,
     `gasLimit` INT NOT NULL,
     `gasUsed` INT NOT NULL,
     `hash` CHAR(66) NOT NULL,
